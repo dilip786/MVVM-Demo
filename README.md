@@ -1,10 +1,10 @@
-# MVVM Demo using LiveData & ViewModel
+## MVVM Demo using LiveData & ViewModel
  
 The main purpose of this app is to show MVVM sample implementation using the new Google Architectural components LiveData and ViewModel.
 
 Fetching images from https://pixabay.com and showing on gridview. Using MVVM architecture, Recylerview, Retrofit & Kotlin,LiveData & ViewModel
 
-# Demo
+## Demo
 
 <table>
   <td>
@@ -20,12 +20,12 @@ Fetching images from https://pixabay.com and showing on gridview. Using MVVM arc
 
 </table>
 
-# Application Architecture
+## Application Architecture
 ![alt text](https://cdn-images-1.medium.com/max/1600/1*OqeNRtyjgWZzeUifrQT-NA.png)
 
 The main advatage of using MVVM, there is no two way dependency between ViewModel and Model unlike MVP. Here the view can observe the datachanges in the viewmodel as we are using LiveData which is lifecycle aware. The viewmodel to view communication is achieved through observer pattern (basically observing the state changes of the data in the viewmodel).
 
-## **Dependencies**
+## Dependencies
 
 def lifecycle_version = "2.1.0"
 
@@ -33,7 +33,7 @@ def lifecycle_version = "2.1.0"
 implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
 
 
-#### Using Jetpack Architecture Components
+## Using Jetpack Architecture Components
 * LiveData
 * ViewModel
 
