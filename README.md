@@ -1,6 +1,6 @@
-# MVVM Demo - LiveData & ViewModel
+# MVVM Demo using LiveData & ViewModel
  
-A simple android project that demonstrates how to implement MVVM Architecture.
+The main purpose of this app is to show MVVM sample implementation using the new Google Architectural components LiveData and ViewModel.
 
 Fetching images from https://pixabay.com and showing on gridview. Using MVVM architecture, Recylerview, Retrofit & Kotlin,LiveData & ViewModel
 
