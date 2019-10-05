@@ -18,4 +18,8 @@ Fetching images from https://pixabay.com and showing on gridview. Using MVVM arc
 
 </table>
 
+#### Using Jetpack Architecture Components
+* LiveData
+* ViewModel
+
 
