@@ -2,7 +2,7 @@
  
 A simple android project that demonstrates how to implement MVVM Architecture.
 
-Fetching images from https://pixabay.com and showing on gridview. Used following MVVM architecture, Recylerview, Retrofit & Kotlin,LiveData & ViewModel
+Fetching images from https://pixabay.com and showing on gridview. Using MVVM architecture, Recylerview, Retrofit & Kotlin,LiveData & ViewModel
 
 
 ![rsz_2mvvm_1](https://user-images.githubusercontent.com/10658016/65840821-f0daf300-e33a-11e9-8893-e4f2adbb6c5a.png)
