@@ -30,12 +30,16 @@ The main advatage of using MVVM, there is no two way dependency between ViewMode
 ```
 def retrofit_version = "2.6.2";
 def glide_version = "4.10.0";
+def lifecycle_ex_version = "2.1.0";
 
 // Lifecycle components
 implementation "com.github.bumptech.glide:glide:$glide_version"
 annotationProcessor "com.github.bumptech.glide:compiler:$glide_version"
+
+implementation "com.squareup.retrofit2:retrofit:$retrofit_version"
+implementation "com.squareup.retrofit2:converter-gson:$retrofit_version"
     
-implementation "androidx.lifecycle:lifecycle-extensions:2.1.0"
+implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_ex_version"
 
 ```
 
