@@ -25,6 +25,13 @@ Fetching images from https://pixabay.com and showing on gridview. Using MVVM arc
 
 The main advatage of using MVVM, there is no two way dependency between ViewModel and Model unlike MVP. Here the view can observe the datachanges in the viewmodel as we are using LiveData which is lifecycle aware. The viewmodel to view communication is achieved through observer pattern (basically observing the state changes of the data in the viewmodel).
 
+## **Dependencies**
+
+def lifecycle_version = "2.1.0"
+
+// Lifecycle components
+implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+
 
 #### Using Jetpack Architecture Components
 * LiveData
