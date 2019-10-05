@@ -27,11 +27,13 @@ The main advatage of using MVVM, there is no two way dependency between ViewMode
 
 ## Dependencies
 
+```
 def lifecycle_version = "2.1.0"
 
 // Lifecycle components
 implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
 
+```
 
 ## Using Jetpack Architecture Components
 * LiveData
