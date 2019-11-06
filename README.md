@@ -47,4 +47,11 @@ implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_ex_version"
 * LiveData
 * ViewModel
 
+### Key Points
+
+- ViewModel request the information from the model replies with observable, ViewModel updates all the local properties inside the ViewModel.
+- Model doesn’t call directly ViewModels
+- ViewModel doesn’t talk directly to any one of the components, this causes huge separation between the View and Model
+
+
 
